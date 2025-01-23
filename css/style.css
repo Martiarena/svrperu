@@ -1121,6 +1121,22 @@ h1,h2,h3,h4,h5,h6{
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
+
+.btn {
+	background-color: #105a7a;
+	padding: 10px 20px;
+	color: white;
+	display: inline-block;
+	margin-top: 2rem;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: 700;
+	font-family:"Montserrat";
+}
+.btn:hover {
+	background-color: white;
+	color: #105a7a;
+}
 .buildify_tm_services_wrap{
 	position: relative;
 	margin-top: -50px;
@@ -2717,10 +2733,11 @@ h1,h2,h3,h4,h5,h6{
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 .buildify_tm_portfolio_list > li{
-	width:33.3333%;
+	/* width:33.3333%;*/
+	width: 50%;
 	float:left;
 	position:relative;
-	margin: 0px 0px 30px 0px;
+	margin: 0px 0px 50px 0px;
 	padding-left: 30px;
 	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
@@ -3049,13 +3066,14 @@ h1,h2,h3,h4,h5,h6{
 	line-height: 1.4;
 }
 .buildify_tm_project_single_wrap .rightbox_inner .project_definition{
-	padding: 0px 40px 44px 40px;
+	padding: 0px 40px 24px 40px;
 	background-color: #f5f5f5;
 	float: left;
 	
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
+	width: 100%;
 }
 .buildify_tm_project_single_wrap .rightbox_inner .project_definition p{
 	font-size: 14px;
@@ -3537,6 +3555,11 @@ h1,h2,h3,h4,h5,h6{
 	position: relative;
 }
 
+.lista-svrperu {
+	color: #4c4c4e;
+    margin-left: 20px;
+}
+
 /*------------------------------------------------------------------*/ 
 /*	14) MEDIA QUERIES (FOR SMALL DEVICES)
 /*------------------------------------------------------------------*/
@@ -3675,7 +3698,7 @@ h1,h2,h3,h4,h5,h6{
 	.buildify_tm_project_single_wrap .rightbox_inner .sharebox:before{right: -68px;}
 	.buildify_tm_project_details_title{padding: 33px 20px 25px 20px;}
 	.buildify_tm_details_list_wrap{padding: 0px 20px 30px 20px;}
-	.buildify_tm_project_single_wrap .rightbox_inner .project_definition{padding: 0px 20px 44px 20px;}
+	.buildify_tm_project_single_wrap .rightbox_inner .project_definition{padding: 0px 20px 24px 20px;}
 	.buildify_tm_project_single_wrap .rightbox_inner .project_video{padding: 30px 20px 0px 20px;}
 	.buildify_tm_about_wrap .subtitle p{font-size: 15px;}
 	.buildify_tm_team_member_wrap .about_team .name{font-size: 16px;}
